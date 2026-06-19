@@ -1,0 +1,11 @@
+.like{
+    background-color: darkorange;
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 50px;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}

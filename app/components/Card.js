@@ -11,9 +11,11 @@ export default function Card({ name, blurb, rating, emoji, image }) {
         <div className={styles.emoji}>{emoji}</div>
       )}
       <h2>{name}</h2>
-      <p>{blurb}</p>
+     
       <p className={styles.stars}>{"⭐".repeat(rating)}</p>
+       <p className={styles.hoverText}>{blurb}</p>
       <LikeButton /> 
+
       
     </article>
   );

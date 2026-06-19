@@ -1,4 +1,5 @@
 "use client";
+import styles from './LikeButton.module.css'
 
 import { useState } from "react";
 
@@ -6,8 +7,8 @@ export default function LikeButton() {
   const [liked, setLiked] = useState(false);
 
   return (
-    <button onClick={() => setLiked(!liked)}>
-      {liked ? "❤️ Liked" : "🤍 Like"}
+    <button className= {styles.like} onClick={() => setLiked(!liked)}>
+      {liked ? "💐 Thank you" : "💎 Appreciate"}
     </button>
   );
 }
