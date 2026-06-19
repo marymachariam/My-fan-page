@@ -1,0 +1,18 @@
+.card {
+  background: rgb(27, 27, 28);
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 14px rgba(70, 68, 68, 0.06);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  color: white;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+.emoji { font-size: 2.5rem; }
+.stars { color: #f5a623; }
+.image{
+    border-radius: 50px;
+    margin-left: 20% auto;
+}
